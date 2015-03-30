@@ -11,6 +11,8 @@ Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  bison
 BuildRequires:  flex
 BuildRequires:  gawk
+BuildRequires:  glibc-static
+BuildRequires:  libstdc++-static
 BuildRequires:  mercurial
 BuildRequires:  python-devel
 BuildRequires:  ros-indigo-catkin
